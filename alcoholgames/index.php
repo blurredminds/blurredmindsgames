@@ -13,7 +13,7 @@
     <script src="assets/js/swfobject.js"></script>
     <?php
     $fav='favicondd.ico';
-	$ROOT = (isset($_SERVER['HTTPS'])?"https":"http")."://". $_SERVER['SERVER_NAME'].'/games/alcoholgames';
+	$ROOT = (isset($_SERVER['HTTPS'])?"https":"http")."://". $_SERVER['SERVER_NAME'].'/blurredmindsgames/alcoholgames';
     ?>
     
     <link rel="shortcut icon" href="assets/img/<?php echo $fav;?>" type="image/x-icon">
