@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Dumb Driver</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Jeremy Larsen">
+	<link rel="stylesheet" href="assets/css/style.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="assets/js/swfobject.js"></script>
+    <?php
+
+    ?>
+    
+    <link rel="shortcut icon" href="assets/img/<?php echo $fav;?>" type="image/x-icon">
+	
+    <link href="assets/css/global.css" rel="stylesheet">
+        <link href="assets/css/quiz.css" rel="stylesheet">
+    
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body class="template">
+	<script type="text/javascript">
+
+	var flashyJ; 
+	if (swfobject.hasFlashPlayerVersion("11.2")) {
+		var fn = function() {
+			var att = { data:"assets/swf/game1.swf", height:"570", width:"760" };
+		    var par = { wmode:'direct', flashvars:'flashRoot=<?php echo $fav='favicondd.ico';
+			$ROOT = (isset($_SERVER['HTTPS'])?"https":"http")."://". $_SERVER['SERVER_NAME'].'/blurredmindsgames/alcoholgames'; 
+			$ROOT.'/assets/swf/'?>' };
+		    var id = "gameHere";
+		    flashyJ = swfobject.createSWF(att, par, id);
+		};
+	    swfobject.addDomLoadEvent(fn);
+    }	
+    </script>
+	<div class="template-wrap clear">
+		<div id="gameHere">In order to play, please <a href="http://get.adobe.com/flashplayer/">click here to enable or download</a> Abode flash player.</div>
+	</div>		
+</body>
+</html>
