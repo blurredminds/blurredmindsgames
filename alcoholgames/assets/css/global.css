@@ -1,0 +1,298 @@
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+A:LINK{
+	text-decoration: none;
+}
+A:VISITED{
+	text-decoration: none;
+	
+}
+.jumbotron {
+	margin: 80px 0 40px;
+	text-align: center
+}
+
+.jumbotron h1 {
+	font-size: 100px;
+	line-height: 1
+}
+.center{
+	text-align: center;
+	top:0px;
+}
+.blocko{
+	display: inline-block;
+}
+.jumbotron .lead {
+	font-size: 24px;
+	line-height: 1.25
+}
+.qpaddy{
+	padding-top:80px;
+
+}
+.jumbotron .btn {
+	font-size: 21px;
+	padding: 14px 24px
+}
+
+.marketing {
+	margin: 60px 0
+}
+
+.marketing p + h4 {
+	margin-top: 28px
+}
+
+.round-4 {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px
+}
+
+.mar-tb-10, .form-signin .btn {
+	margin: 10px 0
+}
+
+.game-select h2 {
+	text-align: center !important;
+	font-size: 22px !important;
+	margin: 0 0 10px
+}
+
+.game-select img {
+	margin-bottom: 15px
+}
+
+.footer p {
+	font-size: 12px;
+	color: #ccc
+}
+
+#overlay {
+	display: none;
+	background-color: rgba(0, 0, 0, 0.7);
+	height: 100%;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 99999999
+}
+
+#overlay .container {
+
+	padding: 0 25px;
+	background: #fff;
+	margin-top: 30px
+}
+
+
+
+#overlay .close-overlay:hover {
+	background: #555;
+	color: #fff;
+	border-color: #444
+}
+
+.form-signin h2 {
+	font-size: 20px
+}
+
+.error {
+	color: #F00
+}
+
+.game-on {
+	margin: 20px 0
+}
+
+.question {
+	margin-bottom: 15px
+}
+
+.options ol li {
+	margin-bottom: 5px
+}
+
+.options ol {
+	margin-bottom: 30px
+}
+
+.play {
+}
+
+#score-card {
+
+}
+.scorepane{
+	margin: 0px auto;
+	margin-top:90px;
+
+	width:365px;
+	background-color: black;
+}
+#score-card h2 {
+	border-bottom: 3px dashed #CCCCCC;
+	margin-bottom: 8px !important;
+	padding-bottom: 10px
+}
+
+#score-card h1,#score-card h2,#score-card h3 {
+	margin: 0
+}
+
+#score-card .btn {
+	padding: 4px 15px;
+	text-shadow: 0 0 0 #333333
+}
+
+.form-get-name {
+	margin: 0 0 20px 0
+}
+
+.score-entername {
+	display: block;
+	margin: 10px 0 3px
+}
+
+.game-select small {
+	margin-left: 10px;
+	color: #888
+}
+
+.game-select small a {
+	margin-left: 2px
+}
+
+.pagination li:first-child .btn {
+	border-radius: 4px 0 0 4px;
+	-moz-border-radius: 4px 0 0 4px;
+	-webkit-border-radius: 4px 0 0 4px;
+	-o-border-radius: 4px 0 0 4px
+}
+
+.pagination li:last-child .btn {
+	border-radius: 0 4px 4px 0;
+	-moz-border-radius: 0 4px 4px 0;
+	-webkit-border-radius: 0 4px 4px 0;
+	-o-border-radius: 0 4px 4px 0
+}
+
+.game-on object {
+	height: 600px
+}
+
+.navbar-inner{ opacity:0.3}
+.blacky{
+	background-color: black;
+	color:white;
+	font-size:12px;
+	text-align: right;
+	padding: 5px;
+	text-transform: uppercase;
+	text-align: center;	
+}
+.blacky_r{
+	
+	float:left;
+	text-transform: uppercase;
+}
+.blacky_l{
+	float:right;
+}
+.blacky a:LINK{
+	color: white;
+	
+	text-transform: capitalize;
+	text-decoration: underline;
+}
+.blacky a:VISITED{
+	color: white;
+	margin:10px;
+	float:right;
+	
+}
+#highscores{
+	text-align:left;
+	text-transform:uppercase;
+	color:white;
+	padding:8px;
+	padding-top:4px;
+	padding-bottom:4px;
+	
+	background-color:black;
+	display: inline-block;
+}
+#highscores>a{
+	float: right;
+	color: white;
+	font-size: 11px;
+}
+#highscores>p{
+	margin: 0px;
+	padding: 0px;
+	font-size: 11px;
+}
+.user-rank{
+	width:30px;
+}
+.user-score{
+	width:60px;
+}
+#highScoreName{
+	
+	width:140px;
+	height: 16px;
+	border: 1px solid black;
+	margin:0px;
+	display:inline-block;
+}
+#highScoreSub{
+	border: 1px solid black;
+	line-height:1;
+   margin:0px;
+	
+	position:absolute;
+    top:0px;right:0px;bottom:0px;
+	
+
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    red;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    red;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    red;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    red;
+}
+.bounds{
+	position:relative;
+	display:inline-block;
+}
+
+#highscores>div{
+	margin-top:2px;
+	margin-bottom:2px;
+	
+	width:359px;
+	background-color: white;
+	color:black;
+	text-align: center;
+	height: 290px;
+}
+#highscores>div>table{
+	text-align:left;
+	text-transform:none;
+	margin:30px;
+	margin-top:10px;
+	width:290px;
+	
+}
